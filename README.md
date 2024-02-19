@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+<h2>Youtube Clone</h2>
+YouTube clone built with React.js! 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Key Features:
+1. **Toggle Sidebar**: Seamlessly navigate through content with a user-friendly sidebar toggle.
+2. **Nth Level Nested Comments**: Foster engaging discussions with deep nested comment threads for enriched interaction.
+3. **Optimized Search**: Experience lightning-fast search using debouncing and caching results while minimizing API calls for enhanced efficiency.
+4. **Video Container**: Immerse yourself in a sleek video container designed for optimal viewing pleasure.
 
-## Available Scripts
+🚀 <h3>Logic and Code behind Optimized Search</h3> 🚀
+Web app's performance with two cutting-edge techniques: Debouncing and Caching. Here's what you need to know:
 
-In the project directory, you can run:
+🌟 ***Debouncing***: With debouncing, we've fine-tuned our app to respond only after users pause typing, ensuring smoother interactions and reducing unnecessary operations triggered by rapid keystrokes.
 
-### `npm start`
+🔍 ***Caching***: Web app remembers previously fetched results, storing them in memory for lightning-fast access. When users search, we first check our cache. If the data's there, we deliver instant results, eliminating redundant API calls and boosting response times.
+![Screenshot (145)](https://github.com/PrakharMasih/Youtube_Clone/assets/98174080/9a1529b1-4fcb-4625-b0a6-8aef3f873e1d)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✨ **How It Works**:
+1. Users type into the search field.
+2. We patiently wait for a brief pause using debouncing.
+3. After the pause, we check our cache.
+4. If the data's cached, we deliver it instantly.
+5. If not, we fetch fresh results and store them for future lightning-fast access.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+💡 Result: A snappier, more responsive experience for users, minimizing server load and delivering results at the speed of thought!
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+https://github.com/PrakharMasih/Youtube_Clone/assets/98174080/26425dc3-5cce-4c5f-a5e3-7953f523a90c
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
